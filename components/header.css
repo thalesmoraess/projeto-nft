@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1.25em;
+    padding-block: 1.25em;
+    align-items: center;
+    max-width: 1600px;
+    margin-inline: auto;
+}
+
+.header_logo {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+nav > a{
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
