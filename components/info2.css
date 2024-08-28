@@ -1,0 +1,43 @@
+.info2 {
+    padding-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    padding-inline: 1.25rem;
+}
+
+.info2_wrapper {
+    display: flex;
+    gap: 3rem;
+}
+
+.info2_flex1 {
+    flex: 1;
+}
+
+.info2_img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.info2-img {
+    order: 1;
+}
+
+.info2_button {
+    background: none;
+    color: #2EB1A3;
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+
+@media (width < 1024px) {
+    .info2_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .info2-img {
+        order: 0;
+    }
+}
