@@ -29,6 +29,7 @@
     color: #2EB1A3;
     font-weight: 600;
     font-size: 1.125rem;
+    text-decoration: underline;
 }
 
 @media (width < 1024px) {

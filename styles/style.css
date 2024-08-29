@@ -15,3 +15,10 @@ body {
     color: white;
     font-family: "Poppins", sans-serif;
 }
+
+button {
+    border: none;
+    background: none;
+    color: inherit;
+    cursor: pointer;
+}
