@@ -6,25 +6,25 @@
     padding-inline: 1.25rem;
 }
 
-.info2_wrapper {
+.info2__wrapper {
     display: flex;
     gap: 3rem;
 }
 
-.info2_flex1 {
+.info2__flex1 {
     flex: 1;
 }
 
-.info2_img {
+.info2__img {
     width: 100%;
     max-width: 500px;
 }
 
-.info2-img {
+.info2__img {
     order: 1;
 }
 
-.info2_button {
+.info2__button {
     background: none;
     color: #2EB1A3;
     font-weight: 600;
@@ -33,12 +33,12 @@
 }
 
 @media (width < 1024px) {
-    .info2_wrapper {
+    .info2__wrapper {
         flex-direction: column;
         align-items: center;
     }
     
-    .info2-img {
+    .info2__img {
         order: 0;
     }
 }
