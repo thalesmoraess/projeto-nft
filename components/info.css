@@ -56,7 +56,7 @@
     flex: 1;
 }
 
-.section__up-text {
+.section__up--text {
     color: #2EB1A3;
     text-transform: uppercase;
     font-weight: 600;

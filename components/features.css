@@ -41,19 +41,19 @@
     position: relative;
 }
 
-.feature__card-img {
+.feature__card--img {
     width: 5rem;
     position: absolute;
     top: -2.5rem;
     left: 1.5rem;
 }
 
-.feature__card-title {
+.feature__card--title {
     font-size: 1.5rem;
     font-weight: 500;
 }
 
-.feature__card-description {
+.feature__card--description {
     color: rgba(255, 255, 255, 0.7);
     font-weight: 300;
 }
